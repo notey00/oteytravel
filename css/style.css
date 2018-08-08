@@ -1,0 +1,97 @@
+/*THIS KEEPS PICS AT A DECENT SIZE - BEWARE*/
+img{
+    width: 75%;
+    height: 75%;
+}
+/*THIS KEEPS PICS AT A DECENT SIZE - BEWARE*/
+
+
+#homebio{
+    text-align: center;
+}
+
+/*KEEPS YOUTUBE VIDS CENTERED*/
+.youtube{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    background-color: white;
+}
+/*KEEPS YOUTUBE VIDS CENTERED*/
+
+
+p{
+    font-family:rambla; 
+}
+
+
+/* NAV BAR */
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    
+}
+
+nav > ul > li {
+    float: left;
+}
+ 
+
+nav > ul > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: raleway;
+}
+/* NAV BAR */
+
+
+.genheader{
+    position: relative;
+    font-family: raleway;
+    text-align: center;
+    font-size: x-large;
+}
+
+.picrow {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.pic {
+  flex: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .pic {
+        width: 100%;
+    }
+}
+
+/*pics*/
+
+/*tips*/
+.tips{
+    text-align: left;
+    font-family: rambla;
+    list-style-type: none;
+    font-size: larger;
+    text-decoration: none;
+}
+/*tips*/
+
+/*Useful Links*/
+
+.links {
+    font-family: rambla;
+}
+
+/*Useful Links*/
